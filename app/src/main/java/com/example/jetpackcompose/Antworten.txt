@@ -1,0 +1,19 @@
+1. Vorteile von Coroutinen
+Sie bieten eine effiziente Möglichkeit, asynchrone Aufgaben durchzuführen, wobei der Code lesbarer
+und wartbarer ist und die Komplexität reduziert. Außerdem blockieren Coroutines keine Threads, was
+die Leistung der Anwendung verbessert
+
+2. Dispatcher
+Ich habe Dispatchers.IO verwendet, weil er für I/O-intensive Aufgaben optimiert ist (Bsp. Netzwerk-
+aufruf)
+
+3. Anwendungsfälle Services
+Musikwiedergabe im Hintergrunf ermöglicht fortlaufende Musikwiedergabe im Hintergrund ohne das die
+App aktiv ist
+Fitness-Tracking, bei dem die Aktivität des Benutzers im Hintergrund überwacht wird (Bsp. GPS-Daten)
+während die App nicht aktiv ist
+
+4. Vorteile Kombination von Services und Coroutinen
+Die Kombination von Services und Coroutinen ermöglicht effiziente Hintergrundaufgaben ohne
+UI-Blockierung. Services führen Aufgaben im Hintergrund aus, während Coroutinen asynchron
+arbeiten und Ressourcen schonen
